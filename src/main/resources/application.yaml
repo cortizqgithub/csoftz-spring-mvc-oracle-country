@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    username: cortizq
+    url: jdbc:oracle:thin:@localhost:1522/tst_latest
+    password: tstpwd
+  application:
+    name: csoftz-mvc-oracle-country
+logging:
+  level:
+    com:
+      example:
+        countryapp: DEBUG
+    org:
+      springframework:
+        jdbc: DEBUG
