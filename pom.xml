@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.csoftz</groupId>
-    <artifactId>csoftz-spring-mvc-oracle-country</artifactId>
+    <artifactId>csoftz-spring-mvc-oracle-country-full</artifactId>
     <version>2025.1.0</version>
-    <name>csoftz-spring-mvc-oracle-country</name>
-    <description>JDBC Template centric app POC</description>
+    <name>csoftz-spring-mvc-oracle-country-full</name>
+    <description>JDBC Template centric app POC. Service/Controller included in app. Full.</description>
     <properties>
         <java.version>21</java.version>
     </properties>

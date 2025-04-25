@@ -1,4 +1,4 @@
-= csoftz-spring-mvc-oracle-country
+= csoftz-spring-mvc-oracle-country-full
 
 V2025.1.0
 
