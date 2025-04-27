@@ -1,3 +1,11 @@
+/*----------------------------------------------------------------------------*/
+/* Source File:   DEFAULTCOUNTRYSERVICE.JAVA                                  */
+/* Copyright (c), 2025 CSoftZ                                                 */
+/*----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------
+ History
+ Apr.19/2025  COQ  File created.
+ -----------------------------------------------------------------------------*/
 package com.csoftz.country.service;
 
 import com.csoftz.country.data.CountryData;
@@ -8,6 +16,18 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
+/**
+ * Default implementation of the {@link CountryService} interface responsible for core
+ * operations related to managing {@link Country} entities.
+ * <p>
+ * This service uses {@link CountryData} for data access operations and performs
+ * necessary business logic.
+ *
+ * @author COQ - Carlos Adolfo Ortiz Q.
+ * @see Country
+ * @see CountryService
+ * @see CountryData
+ */
 @Service
 public class DefaultCountryService implements CountryService {
     private static final Logger logger = LoggerFactory.getLogger(DefaultCountryService.class);
